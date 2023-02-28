@@ -20,14 +20,14 @@
             landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "57B4605C-CF6A-47D4-984A-BCB7EA5CA06C - 42cda5ed33ccf463"
+                  uuid = "57B4605C-CF6A-47D4-984A-BCB7EA5CA06C - 67ba6668b04a083f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Project1.ContentView.body.getter : some"
                   moduleName = "Project1"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/laxyakumar/Desktop/XcodeFiles/Project1/Project1/ContentView.swift"
+                  urlString = "file:///Users/laxyakumar/Desktop/XcodeFiles/Finance-Tracker/Project1/ContentView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "55"
@@ -35,14 +35,14 @@
                   offsetFromSymbolStart = "1096">
                </Location>
                <Location
-                  uuid = "57B4605C-CF6A-47D4-984A-BCB7EA5CA06C - 6180cbe82eb7e4a1"
+                  uuid = "57B4605C-CF6A-47D4-984A-BCB7EA5CA06C - 44f7086dad31187d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Project1.ContentView.body.getter : some"
                   moduleName = "Project1"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/laxyakumar/Desktop/XcodeFiles/Project1/Project1/ContentView.swift"
+                  urlString = "file:///Users/laxyakumar/Desktop/XcodeFiles/Finance-Tracker/Project1/ContentView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "57"
