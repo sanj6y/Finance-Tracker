@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-// test
+// test change!
 @main
 struct Project1App: App {
     @StateObject var transactionListVM = TransactionListViewModel()
