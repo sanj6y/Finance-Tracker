@@ -11,7 +11,7 @@
 		082F30FC29A192E200678056 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F30FB29A192E200678056 /* PreviewData.swift */; };
 		082F310029A196C700678056 /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F30FF29A196C700678056 /* TransactionRow.swift */; };
 		084C553C299EA1F500F77043 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084C553B299EA1F500F77043 /* Extensions.swift */; };
-		0870F3B5299D4662007CE527 /* Project1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0870F3B4299D4662007CE527 /* Project1App.swift */; };
+		0870F3B5299D4662007CE527 /* FinanceTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0870F3B4299D4662007CE527 /* FinanceTrackerApp.swift */; };
 		0870F3B7299D4662007CE527 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0870F3B6299D4662007CE527 /* ContentView.swift */; };
 		0870F3B9299D4663007CE527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0870F3B8299D4663007CE527 /* Assets.xcassets */; };
 		0870F3BC299D4663007CE527 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0870F3BB299D4663007CE527 /* Preview Assets.xcassets */; };
@@ -49,7 +49,7 @@
 		082F30FF29A196C700678056 /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 		084C553B299EA1F500F77043 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0870F3B1299D4662007CE527 /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0870F3B4299D4662007CE527 /* Project1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1App.swift; sourceTree = "<group>"; };
+		0870F3B4299D4662007CE527 /* FinanceTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceTrackerApp.swift; sourceTree = "<group>"; };
 		0870F3B6299D4662007CE527 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0870F3B8299D4663007CE527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0870F3BB299D4663007CE527 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -94,10 +94,10 @@
 		0870F3A8299D4662007CE527 = {
 			isa = PBXGroup;
 			children = (
-				0870F3B3299D4662007CE527 /* Project1 */,
-				0870F3C4299D4663007CE527 /* Project1Tests */,
+				0870F3B3299D4662007CE527 /* Finance Tracker */,
+				0870F3C4299D4663007CE527 /* FinanceTrackerTests */,
 				0870F3BA299D4663007CE527 /* Preview Content */,
-				0870F3CE299D4663007CE527 /* Project1UITests */,
+				0870F3CE299D4663007CE527 /* FinanceTrackerUITests */,
 				0870F3B2299D4662007CE527 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,10 +112,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0870F3B3299D4662007CE527 /* Project1 */ = {
+		0870F3B3299D4662007CE527 /* Finance Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				0870F3B4299D4662007CE527 /* Project1App.swift */,
+				0870F3B4299D4662007CE527 /* FinanceTrackerApp.swift */,
 				0870F3B6299D4662007CE527 /* ContentView.swift */,
 				087D6AA129A1FFDC008B1F04 /* RecentTransactionList.swift */,
 				087D6AA329A2172D008B1F04 /* TransactionList.swift */,
@@ -125,7 +125,7 @@
 				084C553B299EA1F500F77043 /* Extensions.swift */,
 				0870F3B8299D4663007CE527 /* Assets.xcassets */,
 			);
-			path = Project1;
+			path = "Finance Tracker";
 			sourceTree = "<group>";
 		};
 		0870F3BA299D4663007CE527 /* Preview Content */ = {
@@ -137,21 +137,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		0870F3C4299D4663007CE527 /* Project1Tests */ = {
+		0870F3C4299D4663007CE527 /* FinanceTrackerTests */ = {
 			isa = PBXGroup;
 			children = (
 				0870F3C5299D4663007CE527 /* Project1Tests.swift */,
 			);
-			path = Project1Tests;
+			path = FinanceTrackerTests;
 			sourceTree = "<group>";
 		};
-		0870F3CE299D4663007CE527 /* Project1UITests */ = {
+		0870F3CE299D4663007CE527 /* FinanceTrackerUITests */ = {
 			isa = PBXGroup;
 			children = (
 				0870F3CF299D4663007CE527 /* Project1UITests.swift */,
 				0870F3D1299D4663007CE527 /* Project1UITestsLaunchTests.swift */,
 			);
-			path = Project1UITests;
+			path = FinanceTrackerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,7 +238,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0870F3AC299D4662007CE527 /* Build configuration list for PBXProject "Project1" */;
+			buildConfigurationList = 0870F3AC299D4662007CE527 /* Build configuration list for PBXProject "Finance Tracker" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -302,7 +302,7 @@
 				082F310029A196C700678056 /* TransactionRow.swift in Sources */,
 				084C553C299EA1F500F77043 /* Extensions.swift in Sources */,
 				087D6AA029A1EFD4008B1F04 /* TransactionListViewModel.swift in Sources */,
-				0870F3B5299D4662007CE527 /* Project1App.swift in Sources */,
+				0870F3B5299D4662007CE527 /* FinanceTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "Preview\\ Content";
+				DEVELOPMENT_TEAM = 45C3724XVX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -473,7 +474,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.Project1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chandrasekar.FinanceTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -489,6 +490,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "Preview\\ Content";
+				DEVELOPMENT_TEAM = 45C3724XVX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -501,7 +503,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.Project1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chandrasekar.FinanceTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -584,7 +586,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0870F3AC299D4662007CE527 /* Build configuration list for PBXProject "Project1" */ = {
+		0870F3AC299D4662007CE527 /* Build configuration list for PBXProject "Finance Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0870F3D3299D4663007CE527 /* Debug */,
